@@ -2,3 +2,35 @@
     border: 1px solid red;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+}
+
+.information {
+    color: #1F2937;
+    background-color: #F9FAF8;
+
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+
+}
+
+.call-to-action {
+    background-color: #F9FAF8;
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
