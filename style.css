@@ -1,7 +1,7 @@
-* {
+/* * {
     border: 1px solid red;
     box-sizing: border-box;
-}
+} */
 
 body {
     display: flex;
@@ -14,19 +14,6 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     flex: 1;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-ul {
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
 }
 
 .information {
