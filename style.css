@@ -1,7 +1,7 @@
-* {
+/* * {
     border: 1px solid red;
     box-sizing: border-box;
-}
+} */
 
 body {
     display: flex;
@@ -18,12 +18,56 @@ body {
 
 .logo {
     font-weight: bold;
+    font-size: 24px;
 }
 
 .navigation-section {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.hero-headline {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.hero-description {
+    font-size: 18px;
+    color:#E5E7EB;
+    margin: 5px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    border: 1px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 4px 18px;
+    font-weight: bold;
+    font-size: 12px;
+    max-width: 85px;
+}
+
+.hero-image {
+    background-color: #6e747c;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
 }
 
 .navigation-section ul {
@@ -132,6 +176,7 @@ body {
     padding: 4px 18px;
     font-weight: bold;
     font-size: 12px;
+    max-width: 85px;
 }
 
 .footer {
